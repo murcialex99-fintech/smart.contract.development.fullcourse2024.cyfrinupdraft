@@ -32,8 +32,8 @@ contract SimpleStorage {
 
 // ABOUT THE CONTRACT
 // This contract has 2 transactional functions (addPerson, store) and 4 call functions (retrieve, myfavoriteNumber, listOfPeople, nameToFavoriteNumber).
-// This contract allows the deployer to add persons with a number assigned to each. 
-// You can search for a number and a person when calling listOfPeople and nameToFavoriteNumber respectively.
+// This contract allows anyone to add persons with a number assigned to each. 
+// You can search for an indexed number or a name of a person when calling listOfPeople and nameToFavoriteNumber respectively.
 // This is possible mainly thanks to the mapping and array variables.
 // The contract also allows to store a specific number. The latest number shows up in myFavoriteNumber and retrieve when you call those functions.
 
@@ -46,5 +46,6 @@ contract SimpleStorage {
 // 0x22d90b4f061fCcFa4043323544F1F9ec79Cf1454 (Ethereum metamask address)
 // 0x65C7677C91A07e6aD21dC3e732A5FB7e72ef80C8 (sepolia zksync block explorer - contract address)
 // 0x22d90b4f061fCcFa4043323544F1F9ec79Cf1454 (sepolia ethereum block explorer - contract address)
+
 
 
