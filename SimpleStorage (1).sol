@@ -42,3 +42,6 @@ contract SimpleStorage {
 // Everything was easy and very familiar to me as I have some XP in the crypto space. However, the coding part was quite complex and almost new to me.
 // The most exciting part to me was deploying the contract on chain and triggering the different functions and variables.
 
+// 0x22d90b4f061fCcFa4043323544F1F9ec79Cf1454 (Ethereum metamask address)
+// 0x65C7677C91A07e6aD21dC3e732A5FB7e72ef80C8 (sepolia zksync block explorer - contract address)
+// 0x22d90b4f061fCcFa4043323544F1F9ec79Cf1454 (sepolia ethereum block explorer - contract address)
