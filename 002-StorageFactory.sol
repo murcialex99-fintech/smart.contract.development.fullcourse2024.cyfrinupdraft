@@ -32,3 +32,7 @@ contract StorageFactory {
 // The contracts interact "seamlessly" (as we say in the course) with each other and with wallet addresses.
 // The ABI from Remix IDE is fast and simple, and it also has an AI chatbot.
 // The contracts are easy to structure: License + Version > Imports, (if any) > Declaration (State variables > Functions).
+
+// 0x22d90b4f061fCcFa4043323544F1F9ec79Cf1454 (Ethereum metamask address)
+//  (sepolia zksync block explorer - contract address)
+// 0x11a5f29523994c287db357abf116c5f3f2fa8388 (sepolia ethereum block explorer - contract address)
