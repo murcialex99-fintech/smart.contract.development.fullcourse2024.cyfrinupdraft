@@ -19,3 +19,7 @@ contract AddFiveStorage is SimpleStorage {
 // GENERAL VIEW
 // This contract looks like a sort of appendix for SimpleStorage, that can be used when needed.
 // The contract is exactly the same but the change in logic allows for a different outcome.
+
+// 0x22d90b4f061fCcFa4043323544F1F9ec79Cf1454 (Ethereum metamask address)
+// 0x6a781160f5F2cd00e34f84b85634066744c92C2b (sepolia zksync block explorer - contract address) 
+// 0xc70B383A02e691D0E57aE268d525FbA1145C0bCD (sepolia ethereum block explorer - contract address)
