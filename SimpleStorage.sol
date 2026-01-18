@@ -16,7 +16,7 @@ contract SimpleStorage {
 
     mapping(string => uint256) public nameToFavoriteNumber;
 
-    function store(uint256 _favoriteNumber) public {
+    function store(uint256 _favoriteNumber) public virtual {
         myfavoriteNumber = _favoriteNumber;
     }
 
@@ -36,6 +36,7 @@ contract SimpleStorage {
 // You can search for an indexed number or a name of a person when calling listOfPeople and nameToFavoriteNumber respectively.
 // This is possible mainly thanks to the mapping and array variables.
 // The contract also allows to store a specific number. The latest number shows up in myFavoriteNumber and retrieve when you call those functions.
+// UPDATE: The "virtual" keyword was added to the store function in order to get overrided by the AddFive (child inherited) contract.
 
 // GENERAL VIEW
 // This is my first ever smart contract. It was written in Remix IDE and deployed in two different testnets (Sepolia mainnet and Sepolia zkSync).
@@ -46,6 +47,7 @@ contract SimpleStorage {
 // 0x22d90b4f061fCcFa4043323544F1F9ec79Cf1454 (Ethereum metamask address)
 // 0x65C7677C91A07e6aD21dC3e732A5FB7e72ef80C8 (sepolia zksync block explorer - contract address)
 // 0x22d90b4f061fCcFa4043323544F1F9ec79Cf1454 (sepolia ethereum block explorer - contract address)
+
 
 
 
