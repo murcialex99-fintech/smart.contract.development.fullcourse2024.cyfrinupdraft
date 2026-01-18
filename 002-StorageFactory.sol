@@ -34,5 +34,7 @@ contract StorageFactory {
 // The contracts are easy to structure: License + Version > Imports, (if any) > Declaration (State variables > Functions).
 
 // 0x22d90b4f061fCcFa4043323544F1F9ec79Cf1454 (Ethereum metamask address)
-//  (sepolia zksync block explorer - contract address)
+// 0x03b6fF1608925dB91Ad0DE024200cA9c810304e5 (sepolia zksync block explorer - contract address) *
+// * I managed to deploy it on chain as you see, but because of gas estimation issues I was not able to interact with it.
 // 0x11a5f29523994c287db357abf116c5f3f2fa8388 (sepolia ethereum block explorer - contract address)
+
