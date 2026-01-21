@@ -43,9 +43,7 @@ contract FundMe {
             address funder = funders[funderIndex];
             addressToAmountFunded[funder] = 0;
         }
-    
         funders = new address[](0); 
-
         (bool callSuccess, ) = payable(msg.sender).call{value: address(this).balance}("");
         require(callSuccess, "Call failed");
     }
@@ -71,4 +69,4 @@ contract FundMe {
 
 // 0x22d90b4f061fCcFa4043323544F1F9ec79Cf1454 (Ethereum metamask address)
 // 0x39Fff44A550144De0169dda65fA59C0852FB49f2 (sepolia ethereum block explorer - contract address)
-// Not possible to deploy into zkSync testnet because of network issues.
+// Not possible to deploy into zkSync testnet because of network issues ATM.
