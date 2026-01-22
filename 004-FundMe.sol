@@ -51,7 +51,7 @@ contract FundMe {
 }
 
 // ABOUT THE CONTRACT
-// This contract allows several functions: funding from users and withdraw (owner).
+// This contract allows several functions: funding (from users) and withdraw (owner), and also receive, fallback and constructor.
 // Other functions not seen are getPrice, getConversionRate, getVersion (imported from PriceConverter.sol).
 // Whenever we interact with another contract we need the address (ETH sepolia from chainlink) and ABI (AggregatorV3Interface).
 // We can call the contract functions from AggregatorV3Interface thanks to importing it (either from folder ./ or github @).
@@ -70,3 +70,4 @@ contract FundMe {
 // 0x22d90b4f061fCcFa4043323544F1F9ec79Cf1454 (Ethereum metamask address)
 // 0x39Fff44A550144De0169dda65fA59C0852FB49f2 (sepolia ethereum block explorer - contract address)
 // Not possible to deploy into zkSync testnet because of network issues ATM.
+
