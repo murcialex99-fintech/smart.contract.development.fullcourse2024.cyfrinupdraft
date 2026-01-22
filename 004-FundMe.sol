@@ -55,6 +55,7 @@ contract FundMe {
 // Other functions not seen are getPrice, getConversionRate, getVersion (imported from PriceConverter.sol).
 // Whenever we interact with another contract we need the address (ETH sepolia from chainlink) and ABI (AggregatorV3Interface).
 // We can call the contract functions from AggregatorV3Interface thanks to importing it (either from folder ./ or github @).
+// The contract sets a minimumUsd value to sent (5 USD).
 // In EVM and Solidity decimals do not work, so we make sure we use the correct number of units when we interact with contracts.
 // msg.sender and msg.value refer to the sender of the current call and the number of wei in the tx respectively.
 // The deployer is eventually able to withdraw the funds (function withdraw will reset the funder array and withdraw all the funds).
@@ -70,4 +71,5 @@ contract FundMe {
 // 0x22d90b4f061fCcFa4043323544F1F9ec79Cf1454 (Ethereum metamask address)
 // 0x39Fff44A550144De0169dda65fA59C0852FB49f2 (sepolia ethereum block explorer - contract address)
 // Not possible to deploy into zkSync testnet because of network issues ATM.
+
 
